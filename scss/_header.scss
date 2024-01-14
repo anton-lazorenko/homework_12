@@ -4,15 +4,17 @@
     display: flex;
     justify-content: start;
     align-items: center;
+
+
+    &__logo {
+        padding-right: 182px;
+    }
 }
 
 header {
     padding: 40px 138.5px 0 140.92px;
 }
 
-.header-wrapper__logo {
-    padding-right: 182px;
-}
 
 ul {
     display: flex;
@@ -21,11 +23,13 @@ ul {
     font-weight: 400;
     letter-spacing: -0.4px;
     transition: color 1s;
+
+
+    &:hover {
+        color: aqua;
+    }
 }
 
-ul:hover {
-    color: aqua;
-}
 
 .navigation__list-destinations-item {
     padding-right: 55px;
